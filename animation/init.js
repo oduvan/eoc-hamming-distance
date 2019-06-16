@@ -87,6 +87,7 @@ requirejs(['ext_editor_io', 'jquery_190', 'raphael_210'],
                 $tryit.find(".checkio-result-in").html("Your Result: " + ret);
             },
             animationTemplateName: 'animation',
+            multipleArguments: true,
             functions: {
                 js: 'hammingDistance',
                 python: 'hamming_distance'
