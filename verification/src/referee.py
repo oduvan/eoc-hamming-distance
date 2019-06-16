@@ -12,7 +12,7 @@ class Referee(RefereeRank):
 
     DEFAULT_FUNCTION_NAME = "checkio"
     FUNCTION_NAMES = {
-        "python_3": "checkio",
+        "python_3": "hamming_distance",
         "js_node": "hammingDistance"
     }
     ENV_COVERCODE = {

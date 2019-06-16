@@ -89,7 +89,7 @@ requirejs(['ext_editor_io', 'jquery_190', 'raphael_210'],
             animationTemplateName: 'animation',
             functions: {
                 js: 'hammingDistance',
-                python: 'checkio'
+                python: 'hamming_distance'
             }
         });
         io.start();
