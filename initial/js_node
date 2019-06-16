@@ -1,0 +1,29 @@
+
+export function hammingDistance(a, b) {
+
+    // your code here
+    return undefined;
+}
+
+import * as assert from 'assert';
+console.log('Example:');
+console.log(hammingDistance(117, 17));
+
+// These "asserts" are used for self-checking
+assert.equal(hammingDistance(117, 17), 3);
+assert.equal(hammingDistance(1, 2), 2);
+assert.equal(hammingDistance(16, 15), 5);
+assert.equal(hammingDistance(255, 1), 7);
+assert.equal(hammingDistance(16, 16), 0);
+assert.equal(hammingDistance(204, 157), 3);
+assert.equal(hammingDistance(31, 51), 3);
+assert.equal(hammingDistance(84, 198), 3);
+assert.equal(hammingDistance(57, 39), 4);
+assert.equal(hammingDistance(140, 160), 3);
+assert.equal(hammingDistance(16, 128), 2);
+assert.equal(hammingDistance(2, 255), 7);
+assert.equal(hammingDistance(100, 200), 4);
+assert.equal(hammingDistance(255, 1), 7);
+
+console.log("Coding complete? Click 'Check' to earn cool rewards!");
+    

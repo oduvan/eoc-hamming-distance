@@ -1,0 +1,25 @@
+def checkio(a, b):
+    # your code here
+    return None
+
+
+if __name__ == '__main__':
+    print("Example:")
+    print(checkio(117, 17))
+
+    # These "asserts" are used for self-checking and not for an auto-testing
+    assert checkio(117, 17) == 3
+    assert checkio(1, 2) == 2
+    assert checkio(16, 15) == 5
+    assert checkio(255, 1) == 7
+    assert checkio(16, 16) == 0
+    assert checkio(204, 157) == 3
+    assert checkio(31, 51) == 3
+    assert checkio(84, 198) == 3
+    assert checkio(57, 39) == 4
+    assert checkio(140, 160) == 3
+    assert checkio(16, 128) == 2
+    assert checkio(2, 255) == 7
+    assert checkio(100, 200) == 4
+    assert checkio(255, 1) == 7
+    print("Coding complete? Click 'Check' to earn cool rewards!")
